@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <title>
+        homepage-eduventures
+    </title>
+</head>
+
+<body bgcolor="black">
+    <div class="header">
+        <font style="color:black" style="font-family:timesnewroman"><b>EduVentures</b></font>
+    </div>
+    <header class="menu">
+        <nav style="display: flex; gap: 20px; text-align: center;">
+            <a href="homepage.html" style="color: white; text-decoration: none; font-weight: bold;">Home</a>
+            <a href="recentnews.html" style="color: white; text-decoration: none; font-weight: bold;">Recent News</a>
+            <a href="about.html" style="color: white; text-decoration: none; font-weight: bold;">About</a>
+            <a href="contactus.html" style="color: white; text-decoration: none; font-weight: bold;">Contact Us</a>
+            <a href="signup.html" style="color: white; text-decoration: none; font-weight: bold;">Sign Up</a>"
+            <a href="login.html" style="color: white; text-decoration: none; font-weight: bold;">Login</a>
+
+        </nav>
+    </header>
+    <div style="background-color: #242321; width:100%; height: 1000px">
+
+        <form
+            style="max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+            <div style="margin-bottom: 15px;">
+                <label for="name" style="display: block; margin-bottom: 5px; color: #333;">
+                    <h4 style="color:brown">Name:</h4>
+                </label>
+                <input type="text" id="name" name="name"
+                    style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="contact" style="display: block; margin-bottom: 5px; color: #333;">
+                    <h4 style="color:brown">Contact#:</h4>
+                </label>
+                <input type="tel" id="phn" name="phn" maxlength="11"
+                    style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="email" style="display: block; margin-bottom: 5px; color: #333;">
+                    <h4 style="color:brown">Email:</h4>
+                </label>
+                <input type="email" id="email" name="email"
+                    style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+
+            <h4 style="color:brown">Select Position: </h4>
+            <input name="position" type="radio" value="tch">Teacher
+            <input name="position" type="radio" value="stu">Student
+            <input name="position" type="radio" value="oth">Other
+            <br><br>
+            <h4 style="color:brown">Select City: </h4>
+            <select style="border-radius: 8px; width:30%">
+                <option  align="center" selected>---Select City---</option>
+                <option value="lhr">Lahore</option>
+                <option value="isl">Islamabad</option>
+                <option value="khi">Karachi</option>
+                <option value="mul">Multan</option>
+                <option value="sgd">Sargodha</option>
+                <option value="skp">Sheikhupura</option>
+                <option value="bwlp">Bahawalpur</option>
+            </select>
+            <br><br>
+            <h4 style="color:brown">Select Education Level</h4>
+            <select style="border-radius: 8px; width:30%">
+                <option  align="center" selected>---Select Education Level---</option>
+                <option value="mtr">matric</option>
+                <option value="int">Intermediate</option>
+                <option value="ba">B.A.</option>
+                <option value="bsc">BSC.</option>
+            </select>
+            <br><br>
+            <div style="margin-bottom: 15px;">
+                <input type="checkbox" id="terms" name="terms" style="margin-right: 10px;">
+                <label for="terms" style="color: #333;">I agree with the <a href="#" style="color:red;"> terms and
+                        policy</a></label>
+            </div>
+            <div
+                style="position:relative; margin-left:auto;margin-top:2%; border-radius: 10px;">
+                <div style="text-align: center;">
+                    <button type="submit"
+                        style="background-color: maroon; color: whitesmoke; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+                </div>
+            </div>
+        </form>
+        <footer
+            style="margin-bottom:1%; background-color:black; color: white; padding: 20px; text-align: center; display: flex; align-items: center; justify-content: space-between;">
+            <div style="display: flex; align-items: center;">
+                <img src="image/logo.png" alt="Logo" style="height: 100px; margin-right: 10px;">
+            </div>
+            <div>
+
+                <div style="margin-bottom: 10px;">
+                    <a href="about.html" style="color: white; text-decoration: none; margin-right: 10px;">About Us</a>
+                    <a href="contactus.html" style="color: white; text-decoration: none; margin-right: 10px;">Contact
+                        Us</a>
+                </div>
+
+                <p>&copy; 2024 EduVentures. All rights reserved.</p>
+        </footer>
+</body>
+
+</html>

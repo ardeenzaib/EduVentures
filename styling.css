@@ -1,0 +1,55 @@
+.header{
+    padding: 20px;
+    text-align: center;
+    background:#7d0c18;
+    color:#7d0c18;
+    font-size: 45px;
+};
+p #maroon{
+    color:maroon;
+};
+.footer{
+    /* padding: 20px; */
+    text-align: center;
+    background:#7d0c18;
+    color:#7d0c18;
+    font-size: 45px;
+    margin-bottom: auto;
+};
+.menu{
+    margin-top: 400px;
+    padding: 20px;
+    width: 99%;
+    text-align: center;
+    background-color:#8c969d; 
+};
+.menu{
+color:black;
+};
+nav {
+    display: flex;
+    justify-content: center; /* Center the menu items horizontally */
+}
+
+/* Style the list items */
+nav ul {
+    list-style: none; /* Remove bullets */
+    display: flex;
+}
+
+/* Style the links */
+nav ul li {
+    margin: 15 0px; /* Add some space between the menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text color */
+    font-size: 20px; /* Font size */
+    padding: 5px 10px; /* Some padding for better click area */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Darker background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
