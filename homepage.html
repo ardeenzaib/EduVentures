@@ -3,11 +3,11 @@
 <head>
     <link rel="stylesheet" type="text/css" href="styling.css">
     <title>
-        Home-eduventures
+        Home-EduVentures
     </title>
     <script>
-        function signup(url){
-            window.location.href=url;
+        function signup(url) {
+            window.location.href = url;
         }
     </script>
 </head>
@@ -20,6 +20,7 @@
         <nav style="display: flex; gap: 20px; text-align: center;">
             <a href="homepage.html" style="color: white; text-decoration: none; font-weight: bold;">Home</a>
             <a href="recentnews.html" style="color: white; text-decoration: none; font-weight: bold;">Recent News</a>
+            <a href="schedule.html" style="color: white; text-decoration: none; font-weight: bold;">Schedule</a>
             <a href="about.html" style="color: white; text-decoration: none; font-weight: bold;">About</a>
             <a href="contactus.html" style="color: white; text-decoration: none; font-weight: bold;">Contact Us</a>
             <a href="signup.html" style="color: white; text-decoration: none; font-weight: bold;">Sign Up</a>"
@@ -53,18 +54,21 @@
             <br>
             <h4 style="color:brown">Adapted Schooling</h4>
             <p style="color:whitesmoke">Adaptive schooling <br>and personalized learning</p>
-            
+
         </div>
     </div>
     <div style="align-content:left;float:left;height:1250px;">
         <div>
             <img src="image/student.jpg" style="height:250px">
-            <p><font style="background-color:tomato;">You</font><font style="color:whitesmoke"> can learn anything</font></p>
-                <br>
-                <font style="color:whitesmoke">Build a strong understanding, start learning now</font>
-                <br>
-                <button onclick="signup(signup.html)">Learners, join here!</button>
-            </div>
+            <p>
+                <font style="background-color:tomato;">You</font>
+                <font style="color:whitesmoke"> can learn anything</font>
+            </p>
+            <br>
+            <font style="color:whitesmoke">Build a strong understanding, start learning now</font>
+            <br>
+            <button onclick="signup(signup.html)">Learners, join here!</button>
+        </div>
     </div>
     <br>
     <div style="float:left;height:1250px;">
@@ -72,11 +76,22 @@
             <img src="image/teacher.jpg" style="height:250px">
             <h4>TO THE TEACHERS</h4>
             <BR>
-            <p><font style="background-color:tomato;">Engage</font><font style="color:whitesmoke"> with the learners</font></p>
-                <br>
-                <font style="color:whitesmoke">Take the lead and begin instructing right away.</font>
-                <br>
-                <button onclick="signup(signup.html)">Teachers, start here!</button>
+            <p>
+                <font style="background-color:tomato;">Engage</font>
+                <font style="color:whitesmoke"> with the learners</font>
+            </p>
+            <br>
+            <font style="color:whitesmoke">Take the lead and begin instructing right away.</font>
+            <br>
+            <button onclick="signup(signup.html)">Teachers, start here!</button>
+        </div>
+    </div>
+    <div>
+        <p><font style="color:whitesmoke;">Want to start now? See the schedule here</font></p>
+        <br>
+        <div style="text-align: center;">
+            <button type="schedule"
+                style="background-color: maroon; color: whitesmoke; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;"><a href="schedule.html" style="color:whitesmoke">See Schedule Here</a></button>
         </div>
     </div>
     <footer
@@ -94,5 +109,11 @@
             <p>&copy; 2024 EduVentures. All rights reserved.</p>
     </footer>
 </body>
+<script>
+    function schedule()
+    {
+        document.open("schedule.html");
+    }
+</script>
 
 </html>
